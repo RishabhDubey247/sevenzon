@@ -22,7 +22,7 @@ const slider = () => {
         <div className="slickItem">
           <div className="topArea">
             <div className="left">
-              <h2 className="slider_text"><span className="everything">Everything</span> you will need for your  Office <br></br><span className="animated"><b>Networking</b></span></h2>
+              <h2 className="slider_text"><span className="everything">Everything</span> you will need for your  Office <div className="animated"><b>Networking</b></div></h2>
               <h2></h2>
             </div>
             <div className="img-box">

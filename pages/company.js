@@ -33,9 +33,19 @@ const company = () => {
           </div>
         </div>
       </div>
-      <div className="company-card">
         <h2>Our mission</h2>
-        <p className="company-card-body">
+       <div className="row">
+        <div className="col-md-6">
+        <Image
+                src="/images/our_mission.gif"
+                alt=""
+                loading="lazy"
+                width="500"
+                height="300"
+              />
+        </div>
+        <div className="col-md-6">
+        <p>
           We are a business inspired by Vision,driven by Mission and underpinned
           by Values. We have put our Vision,Mission and Values here for you to
           see,along with what they mean to our candidates, clients and partners
@@ -43,6 +53,7 @@ const company = () => {
           matter to you Replace this text with information about you and your
           business or add information that will be useful for your customers.
         </p>
+       </div>
       </div>
       <div className="company-card-2">
         <h2>Our responsibility</h2>

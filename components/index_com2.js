@@ -59,7 +59,7 @@ const index_com2 = () => {
                     <div class="what-heading">
                         <Img src="/images/Artboard 1 copy 23.png" width="70" height="70"/>
                         <span class="sub-heaidng"></span>
-                        <h2 class="">What is <b>Sevenzon ?</b></h2>
+                        <h2 class=""><b>Who we are?</b></h2>
                         <div class="wdr"></div>
                         <p>
                         Sevenzon Technologies is dedicated to delivering the best IT solutions for your business. Our company provides top-notch IT solutions and surveillance systems that meet the highest international standards for quality and performance. Our product line includes copper and fiber cabling, switching, servers, routers, and surveillance systems, and we are known for delivering these products on time, anywhere in the country.

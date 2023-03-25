@@ -29,7 +29,7 @@ function footer() {
           <div className="footer-col col-md-3">
             <h4>PRODUCTS</h4>
             <ul className='footer_list'>
-              <li><Link href='#'>Switching </Link></li>
+              <li><Link href='/product'>Switching </Link></li>
               <li><Link href='#'>Routing</Link></li>
               <li><Link href='#'>WI-FI Access Point </Link></li>
               <li><Link href='#'>Broadband & Adslrouters</Link></li>

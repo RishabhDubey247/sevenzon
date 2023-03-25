@@ -3,6 +3,11 @@ import CountUp from "react-countup";
 
 const counter = () => {
   return (
+    <>
+    <div class="what-heading mx-5">
+                        <span class="sub-heaidng"></span>
+                        <h2 class=""><b>WHAT WE ACHIEVED</b></h2>
+                    </div>
     <div className="counter_main">
       <CountUp start={0} end={5} delay={0}>
         {({ countUpRef}) => (
@@ -37,6 +42,7 @@ const counter = () => {
         )}
       </CountUp>
     </div>
+    </>
   );
 };
 

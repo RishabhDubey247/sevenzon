@@ -28,7 +28,7 @@ const index_com = () => {
                             </div>
                             <div class="process-text">
                                 <h5>Visit Our Website</h5>
-                                <p>For the first step, you will have to visit our website to explore the products that fit your needs.</p>
+                                <p>To place an order with Sevenzon, the first step is to visit our official website. Browse through the various product categories and select the products you want to purchase.</p>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const index_com = () => {
                             </div>
                             <div class="process-text">
                                 <h5>Select Your Products</h5>
-                                <p>Once you shortlist the product you have been looking for,then send your request to use</p>
+                                <p>Once you have visited the website, you can now select the product you are interested in purchasing. Make sure to read the product description, specifications, and reviews before making a decision.</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const index_com = () => {
                             </div>
                             <div class="process-text">
                                 <h5>Drop Your Query</h5>
-                                <p>One of the most important steps.You will have to send you contact details and address</p>
+                                <p>Drop your contact details and address at this step, if you have any doubts or queries regarding the product, you can drop them in the "Contact Us" section or by sending an email to Sevenzon's customer support team. They will be happy to assist you.</p>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const index_com = () => {
                             </div>
                             <div class="process-text">
                                 <h5>We delivered!</h5>
-                                <p>we will contact you shortly for confirmation and we delivered your product as soon as possible.</p>
+                                <p>Once you have completed the above steps, Sevenzon will process your order and deliver the product to your doorstep. You can sit back, relax, and enjoy your new purchase</p>
                             </div>
                         </div>
                     </div>

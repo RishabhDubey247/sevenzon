@@ -48,7 +48,7 @@ const slider = () => {
                 loading="lazy"
                 width="800"
                 height="350"
-              />                            </div>
+              /></div>
           </div>
         </div>
       </Carousel>

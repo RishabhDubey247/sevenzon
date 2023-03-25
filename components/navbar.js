@@ -4,36 +4,41 @@ import Link from "next/link";
 
 const navbar = () => {
   return (
-  <div className="sticky">
-    <div>
-      <div className="nav_div">
-        <div className="logo_nav">
-          <div className="logo_div">
-            <Link  href="/" ><img className="logo_main" src="/images/mainlogo.png" alt=""></img></Link>
-            <p className="company_name">SEVENZON TECHNOLOGIES</p>
-          </div>
-          <div class="wb_element" data-plugin="Button"><a class="wb_button" href="mailto:sales@sevenzon.co.in" target="_blank"><span>Drop Your Message Here</span></a></div>
+    <header class="header">
+    <nav class="navbar navbar-expand-sm justify-content-center ">
+      <div class="container-fluid navbar-container">
+        <div class="d-flex align-items-center">
+          <Link href="/" class="navbar-brand">
+            <img className="logo_main" src="/images/mainlogo.png" alt=""></img>
+          </Link>
+          <p className="company_name mb-0 ml-3">SEVENZON TECHNOLOGIES</p>
         </div>
-     </div>
-      <div class="nav">
-  <div class="nav-btn">
-    <label for="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-  </div>
-  <div class="nav-links">
-    <Link href="/">Home</Link>
-    <Link href="/product">Solutions</Link>
-    <Link href="/about">About Us</Link>
-    <Link href="/whyus">Why us</Link>
-    <Link href="/contact">Contact</Link>
-  </div>
-</div>
-</div>
-</div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item mr-3">
+            <Link href="/">Home</Link>
+          </li>
+          <li class="nav-item mr-3">
+            <Link href="/about">About Us</Link>
+          </li>
+          <li class="nav-item mr-3">
+            <Link href="/product">Solutions</Link>
+          </li>
+          <li class="nav-item mr-3">
+            <Link href="/whyus">Why us</Link>
+          </li>
+          <li class="nav-item mr-3">
+            <Link href="/contact">Contact</Link>
+          </li>
+        </ul>
+      </div>
+      <a href="mailto:sales@sevenzon.co.in" class="btn btn-danger">
+          Drop Your Message Here
+        </a>
+      </div>
+    
+    </nav>
+    </header>
   );
 };
-
 export default navbar;

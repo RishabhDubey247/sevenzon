@@ -19,12 +19,10 @@ export default function Home() {
     <>
     <div className="">
     <Slider/>
-
     <Index2/>
 <Cards/>
 <Index/>
 <Partners/>
-{/* <Cont/>  */}
     </div>
     </>
   );
